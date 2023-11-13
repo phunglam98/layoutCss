@@ -1,0 +1,140 @@
+.header{
+    width: 100%;
+    height: 120px;
+}
+.logo{
+    width: 25%;
+    height: 100%;
+    border: 1px solid black;
+    float: left;
+}
+.banner{
+    width: calc(100% - 25% - 5px - 4px);
+    height: 100%;
+    border: 1px solid black;
+    float: left;
+    margin-left: 5px;
+}
+.nav {
+    border: 1px solid black;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+}
+.nav_item{
+    line-height: 2;
+    margin-left: 10px;
+    height: 100%;
+    float: left;
+    text-align: center;
+    font-size: larger;
+    color: blue;
+}
+.search{
+    height: 100%;
+    float: right;
+    width: 300px;
+    padding-top: 3px;
+    padding-right: 10px;
+}
+.search input {
+    border: 1px solid black;
+    background: none;
+    width: calc(100% - 10px - 2px);
+    height: calc(100% - 2px - 9px);
+    padding-left: 10px;
+    border-radius: 20px;
+}
+.text{
+    margin-left: 20px;
+    line-height: 2.5;
+    float: left;
+    text-align: center;
+}
+.wrapper{
+    margin-top: 10px;
+    width: 100%;
+    height: 650px;
+}
+.left_1{
+    height: 80%;
+    width: 12%;
+    float: left;
+}
+.left_2{
+    border: 1px solid black;
+    height: 45%;
+    width: 100%;
+}
+.left_item{
+    line-height: 2;
+    margin-left: 10px;
+    height: 20%;
+
+    text-align: center;
+
+}
+.left_3{
+    border: 1px solid black;
+    height:calc(100% - 45% - 10px - 4px);
+    width:100%;
+    margin-top: 10px;
+}
+.main{
+    height: 90%;
+    width: 65%;
+    margin-left: 20px;
+    float: left;
+}
+.new_container{
+    width: 100%;
+    height: 30%;
+}
+.new{
+    border: 1px solid black;
+    width: 49%;
+    height: 100%;
+    float: left;
+}
+.slide{
+    border: 1px solid black;
+    width: calc(100% - 49% - 20px - 4px);
+    height: 100%;
+    float: left;
+    margin-left: 20px;
+}
+.item_container{
+    margin-top: 20px;
+    height: calc(100% - 30% - 20px - 6px);
+    width: 100%;
+}
+.item{
+    border: 1px solid black;
+    width: 32%;
+    height: 45%;
+    margin-left: 10px;
+    float: right;
+    margin-bottom: 20px;
+}
+.right_bar{
+    border: 1px solid black;
+    height: 100%;
+    width: calc(100% - 12% - 65% - 40px - 6px);
+    margin-left: 20px;
+    float: right;
+}
+.footer{
+    border: 1px solid black;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+}
+.footer_item{
+    line-height: 2;
+    margin-right: 10px;
+    height: 100px;
+    float: right;
+    text-align: center;
+    font-size: larger;
+    color: blue;
+}
